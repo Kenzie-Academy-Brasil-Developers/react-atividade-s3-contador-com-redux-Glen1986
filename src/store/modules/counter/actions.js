@@ -1,3 +1,3 @@
 
-export const addNumber = (payload) => ({type: "ADD_NUM", payload})
-export const subNumber = (payload) => ({type: "LES_NUM", payload})
+export const addNumber = (payload) => ({type: "ADD_NUM", payload: 1});
+export const lesNumber = (payload) => ({type: "LES_NUM", payload: 1});
