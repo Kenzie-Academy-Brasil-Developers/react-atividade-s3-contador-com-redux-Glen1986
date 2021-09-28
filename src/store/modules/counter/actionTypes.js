@@ -1,2 +1,4 @@
-export const addNumber = "ADD_NUM";
-export const lesNumber = "LES_NUM";
+export const ActionTypes = {
+  ADD_NUM: "ADD_NUM",
+  LES_NUM: "LES_NUM",
+};
