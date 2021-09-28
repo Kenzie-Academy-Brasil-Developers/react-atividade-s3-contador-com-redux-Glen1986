@@ -1,13 +1,14 @@
-import {ActionTypes} from '../counter/actionTypes'
+import {ADD_NUM} from '../counter/actionTypes';
+import {LES_NUM} from '../counter/actionTypes';
 const reducerCounter = (state = 0, action) => {
 
   console.log(action)
   switch (action.type) {
 
-    case ActionTypes.ADD_NUM:
+    case ADD_NUM:
       return state + action.payload;
 
-    case ActionTypes.LES_NUM:
+    case LES_NUM:
       return state - action.payload;
 
     default:
